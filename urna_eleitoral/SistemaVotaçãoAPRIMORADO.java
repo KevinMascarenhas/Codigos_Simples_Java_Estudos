@@ -18,7 +18,7 @@ public class SistemaVotaçãoAPRIMORADO {
         candidatoes.add(new Candidato("Ciro Gomes", 45, "PSDB", 0));
         candidatoes.add(new Candidato("Guilherme Boulos", 50, "PSOL", 0));
         candidatoes.add(new Candidato("Ratinho Jr.", 55, "PSD", 0));
-        candidatoes.add(new Candidato("Kevin de Costa", 69, "PCD", 0));
+        candidatoes.add(new Candidato("Renan Santos", 14, "Missão", 0));
 
         int brancos = 0;
         int nulos = 0;
@@ -61,4 +61,5 @@ public class SistemaVotaçãoAPRIMORADO {
         scanner.close();
     }
 }
+
 
