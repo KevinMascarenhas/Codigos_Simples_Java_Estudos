@@ -10,14 +10,11 @@ public class SistemaVotaçãoAPRIMORADO {
         Scanner scanner = new Scanner(System.in);
 
         List<Candidato> candidatoes = new ArrayList<>();
-        candidatoes.add(new Candidato("Tarcisio de Freitas", 10, "Republicanos", 0));
         candidatoes.add(new Candidato("Lula", 13, "PT", 0));
-        candidatoes.add(new Candidato("Michelle Bolsonaro", 22, "PL", 0));
-        candidatoes.add(new Candidato("Ronaldo Caiado", 25, "União Brasil", 0));
+        candidatoes.add(new Candidato("Flávio Bolsonaro", 22, "PL", 0));
+        candidatoes.add(new Candidato("Ronaldo Caiado", 55, "PSD", 0));
         candidatoes.add(new Candidato("Romeu Zema", 30, "Novo", 0));
         candidatoes.add(new Candidato("Ciro Gomes", 45, "PSDB", 0));
-        candidatoes.add(new Candidato("Guilherme Boulos", 50, "PSOL", 0));
-        candidatoes.add(new Candidato("Ratinho Jr.", 55, "PSD", 0));
         candidatoes.add(new Candidato("Renan Santos", 14, "Missão", 0));
 
         int brancos = 0;
@@ -61,5 +58,6 @@ public class SistemaVotaçãoAPRIMORADO {
         scanner.close();
     }
 }
+
 
 
